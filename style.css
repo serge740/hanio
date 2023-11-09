@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#home{
+    padding:10px 0px 100px  0px;
+    overflow: hidden;
+    position: relative;
+    /* border: 2px solid red; */
+    z-index: 1;
+}
+
+
+.navbar{
+    display: flex;
+    /* border: 1px solid black; */
+    z-index: 1;
+    /* position: absolute; */
+    justify-content: space-around;  
+
+}
+
+
+.lefg{
+    display: flex;
+    gap: 60px;
+}
+.links{
+display: flex;
+text-transform: capitalize;
+
+justify-content: space-around;
+gap: 20px;
+}
+.li1 svg{
+    transition: 0.6s;
+}
+.li1:hover svg{
+    fill: rgb(255, 170, 0);
+    transform: rotate(180deg);
+}
+.box{
+    cursor: pointer ;
+    padding: 20px 10px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px rgba(255, 106, 0, 0.122);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.man{
+    font-weight: 710;
+    transition: 0.6s;
+}
+.li1:hover .man{
+    color: rgb(255, 170, 0);
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.box a:hover{
+    background-color: rgba(255, 166, 0, 0.075);
+    color: orange;
+
+}
+.li1{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 10px 0px;
+    z-index: 1;
+}
+.li1:hover .box{
+    top: 05%;
+    pointer-events: all;
+    opacity: 1;
+    
+}
+.li1 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.rigt{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    gap: 90px;
+    padding: 0px 80px 0px 0px;
+    /* text-decoration: none; */
+}
+.rigt a{
+    text-decoration: none;
+    color: black;
+}
+.rd{
+    display: flex;
+    gap: 5px;
+    /* width: 200px; */
+    /* border: 1px solid black; */
+    padding: 10px 10px 5px 20px ;
+    transition: 0.3s;
+}
+.rd svg{
+    height: 30px;
+    width: 30px;
+    /* fill: transparent; */
+    /* border: 1px solid black; */
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 10px 5px 20px ;
+    transition: 0.3s;
+    
+}
+.call p{
+    padding: 0px 0px 0px 03px;
+   
+}
+ a:hover .call{
+    color: rgb(255, 170, 0);
+}
+a:hover .rd{
+    color: rgb(255, 170, 0);
+}
+.middle{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.beft{
+    padding:190px 0px 0px 80px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle p{
+    font-weight: lighter;
+    
+}
+.beft h2{
+    padding: 0px 90px 0px 0px;
+    color: black;
+    font-weight: 720;
+    font-size: 70px;
+}
+.beft h1{
+    color: rgb(255, 170, 0);
+    font-size: 65px;
+    padding: 0px 38px 0px 0px;
+    font-weight:710;
+}
+.beft button{
+    padding: 13px  40px;
+    font-size: 22px;
+    background: linear-gradient(to right,rgb(255, 48, 103),rgb(243, 142, 53));
+    border: none;
+    font-weight: 700;
+    position: absolute;
+    left: 18%;
+    cursor:pointer ;
+    top: 110%;
+    box-shadow: 0px 10px 20px rgba(255, 106, 0, 0.241); 
+    border-radius: 25px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.beft button:hover{
+    box-shadow: 0px 15px 25px rgba(255, 106, 0, 0.31); 
+
+}
+.bight{
+    /* border: 1px solid black; */
+    padding:0px 0px 150px 0px;
+    overflow: hidden;
+    position: absolute;
+    /* display: flex; */
+    /* flex-direction: column; */
+    top: 0;
+    right: 0;
+    width: 800px;
+}
+.fit{
+    position: relative;
+    z-index: -1;
+    top: 0%;
+}
+.fi1 img{
+    height: 450px;
+    width: 600px;
+    top: 0;
+    right: 0%;
+    position: absolute;
+}
+.fi2 img{
+    height: 650px;
+    width: 650px;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+    position: absolute;
+}
+.hin img{
+    height: 550px;
+    width: 700px;
+}
+.hin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 180px 70px 0px 0px;
+
+}
+
+.blob {
+    position: absolute;
+    left: 0;
+    top:50% ;
+    
+}
+.blob img{
+    height: 450px;
+    width: 150px;
+}
+.hou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 390px 0px 0px 50px;
+    gap: 60px;
+}
+
+.ho1{
+    padding: 45px 75px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.208);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    gap: 20px;
+    justify-content: center;
+}
+.ho1 img{
+    height: 40px;
+    width: 40px;
+
+}
+.sax{
+    font-size: 20px;
+    font-weight: 570;
+}
+.sox{
+    font-size: 17px;
+    border-bottom: 1.5px dashed rgb(243, 142, 53);
+    color: gray;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.sox:hover{
+    /* color: aliceblue; */
+    border-bottom: 1.5px dashed gray;
+}
+
+.fly{
+    position: absolute;
+    left: 32%;
+    top: 53%;
+}
+.fly img{
+    height: 200px;
+    width: 200px;
+}
+#about{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 50px 0px 260px 0px;
+}
+.lift{
+    position: relative;
+}
+
+.back{
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+}
+.back img{
+    height: 600px;
+    width:330px;
+}
+.reght{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    padding: 0px 200px 0px 0px
+}
+.infront img{
+    height:550px;
+    width: 650px;
+}
+.sad{
+    padding: 0px 1px 0px 0px;
+}
+.sad h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+.sad h4{
+    color: rgb(243, 142, 53);
+    font-size: 25px;
+}
+.reght p{
+    line-height: 1.5;
+    
+}
+.befs{
+    padding: 0px 18px 0px 0px;
+}
+.reght button{
+    padding: 20px  40px;
+    font-size: 22px;
+    background: linear-gradient(to right,rgb(255, 48, 103),rgb(243, 142, 53));
+    border: none;
+    font-weight: 700;
+    position: absolute;
+    left: 4%;
+    cursor:pointer ;
+    top: 110%;
+    box-shadow: 0px 10px 20px rgba(255, 106, 0, 0.241); 
+    border-radius: 35px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: 0.5s;
+    display: flex;
+    gap: 10px;
+}
+.wayback{
+    position: absolute;
+    right: 0;
+    top: -10%;
+}
+.wayback img{
+    width: 70px;
+    height: 100px;
+}
+.reght svg{
+    height: 12px;
+    padding: 5px 5px 5px 6px ;
+    fill: rgb(255, 48, 103);
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 12px;
+}
+::selection{
+    background-color: #ffeace;
+}
+#service{
+    padding: 120px 0px 130px 0px;
+    background-color: #fff4e6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sca{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+.sca img{
+    height: 150px;
+    width: 250px;
+}
+.sce{
+    position: absolute;
+    top: -14%;
+    right: 0;
+}
+.sce img{
+    height: 200px;
+    width: 200px;
+    
+}
+.serve{
+    padding: 40px 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 300px;
+    flex-direction: column;
+}
+.serve img{
+height: 140px;
+width: 140px;
+}
+.serve p{
+    font-weight: lighter;
+    font-size: 14px;
+}
+.serves{
+    display: flex;
+    gap: 30px;
+}
+.sead h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 800;
+
+}
+.sead h4{
+    font-size: 23px;
+ color: rgb(243, 142, 53);
+ text-align: center;   
+}
+.serv{
+    position: absolute;
+    bottom: 1%;
+    right: 10%;
+}
+.serv img{
+    height: 140px;
+    width: 140px;
+}
+.fisvg svg{
+    height: 70px;
+    fill: rgb(243, 142, 53);
+    width: 70px;
+}
+.fisvg{
+    position: absolute;
+    top: -5%;
+    left: 85%;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.las svg{
+    height: 25px;
+    width: 25px;
+    fill: rgb(243, 142, 53);
+}
+#shop{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 30px 200px;
+    gap: 70px;
+}
+.shop-cart{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.094);
+    padding: 40px 30px 40px 30px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    /* height: 400px; */
+    width: 300px;
+}
+.shop-cart p{
+    font-size: 21px;
+    font-weight: 700;
+}
+.bot{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cir{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cir img{
+    height: 160px;
+    width: 90px;
+}
+.tri{
+    right: 5%;
+    top: 5%;
+    position: absolute;
+}
+.tri img{
+    height: 120px;
+    width: 210px;
+    
+}
+.sh{
+    gap: 50px;
+    display: flex;
+
+}
+.las{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.las h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.shop-cart button{
+    display: flex;
+    gap: 10px;
+    padding:20px  35px;
+    color: rgb(243, 142, 53);
+    text-transform: capitalize;
+    border: 1px solid rgb(243, 142, 53);
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.shop-cart button svg{
+    height: 20px;
+    fill: rgb(243, 142, 53);
+    width: 20px;
+    transition: 0.3s;
+}
+.shop-cart button:hover{
+    background-color: rgb(243, 142, 53);
+    color: white;
+}
+.shop-cart button:hover svg{
+    fill: white;
+}
+.sho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    flex-direction: column;
+}
+.sho p{
+    color: rgb(243, 142, 53);
+    font-weight: 700;
+    font-size: 18px;
+}
+.sho h1{
+    font-size: 55px;
+
+}
+.path{
+    position: absolute;
+    /* bottom: 1%; */
+    top: 80%;
+    left: 10%;
+
+}
+.path img{
+    height: 150px;
+    width: 220px;  
+}
+.outa button{
+    padding: 13px  40px;
+    font-size: 22px;
+    background: linear-gradient(to right,rgb(255, 48, 103),rgb(243, 142, 53));
+    border: none;
+    font-weight: 700;
+    position: absolute;
+    left: 47%;
+    cursor:pointer ;
+    top: 85%;
+    box-shadow: 0px 10px 20px rgba(255, 106, 0, 0.241); 
+    border-radius: 25px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
