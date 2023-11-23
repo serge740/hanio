@@ -1,72 +1,37 @@
 *{
     margin: 0;
-    padding: 0;
 }
-.wsp{
-    background-color: rgba(0, 0, 0, 0.278);
-    padding: 20px;
-}
-.shits{
-color: red;
-border: 1px solid black;
-width: 400px;
-display: flex;
-padding: 20px;
-flex-direction: column;
-gap: 10px;
-}
-.shits-nigga{
+
+.bites{
     display: flex;
-    width: 1200px;
-    position: relative;
-top: 0;
--webkit-animation-name: nigga;
--webkit-animation-duration: 12s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-play-state: running;
--webkit-animation-direction: alternate;
-
+    flex-direction: column;
+    transition: 0.4s;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 0px 30px 20px;
+    /* align-items: center; */
 }
-@-webkit-keyframes nigga{ 
-
-    0%{
-        left: 0px;
-    }
-    10%{
-        left: 0px;
-    }
-    20%{
-        left: -400px;
-    }
-    30%{
-        left: -400px;
-    }
-    40%{
-        left: -800px;
-    }
-    50%{
-        left: -800px;
-    }
-    60%{
-        left: -400px;
-    }
-      70%{
-        left: -400px;
-    }
-    80%{
-        left: 0px;
-    }
-
-    90%{
-        left: 0px;
-    }
-    100%{
-        left: 0px;
-    }
-
+.bit{
+    gap: 02px;
+    transition: 0.4s;
 }
-.our-shits{
-    width: 400px;
-    display: flex;
-    overflow: hidden;
+/* .kog{
+    border: 2px solid black;
+} */
+.long{
+    width: 30px;
+    border: 1.5px solid black;
+}
+.shot{
+    transition: 0.4s;
+    width: 15px;
+    border: 1.5px solid black;
+}
+
+.sho{
+    width: 30px;
+    /* border: 2px solid black; */
+     
+    transition: 0.4s;
+
 }
