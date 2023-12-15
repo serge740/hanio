@@ -1,37 +1,342 @@
 *{
+    transition: 0.2s;
     margin: 0;
 }
-
-.bites{
+.link2{
     display: flex;
     flex-direction: column;
-    transition: 0.4s;
+    width: 100%;
     justify-content: center;
-    gap: 10px;
-    padding: 30px 0px 30px 20px;
-    /* align-items: center; */
 }
-.bit{
-    gap: 02px;
+.li2{
+    height: 62px;
+    overflow: hidden;
+    width: 100%;
     transition: 0.4s;
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
 }
-/* .kog{
-    border: 2px solid black;
-} */
-.long{
-    width: 30px;
-    border: 1.5px solid black;
+.nigga{
+    height: 400px;
 }
-.shot{
+.man2{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top:-5px;
+    font-size: 17px;
+    padding: 23px 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.box2{
+    display: flex;
+    position: absolute;
+    width: 97%;
+    top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.box2 a{
+    width: 100%;
+
+    font-size: 17px;
+    padding: 15px 0px 15px 20px ;
+    color: black;
+
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.box2 a:hover{
+    padding: 15px 0px 15px 20px ;
+    color: orangered;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.474);
+}
+.lia1{
+    height: 62px;
+    overflow: hidden;
+    width: 100%;
     transition: 0.4s;
-    width: 15px;
-    border: 1.5px solid black;
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.nigga{
+    height: 400px;
+}
+.man1{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top:-5px;
+    font-size: 17px;
+    padding: 23px 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.box1{
+    display: flex;
+    position: absolute;
+    width: 97%;
+    top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.box1 a{
+    width: 100%;
+
+    font-size: 17px;
+    padding: 15px 0px 15px 20px ;
+    color: black;
+
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.box1 a:hover{
+    padding: 15px 0px 15px 20px ;
+    color: orangered;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.474);
 }
 
-.sho{
-    width: 30px;
-    /* border: 2px solid black; */
-     
-    transition: 0.4s;
 
+.li3{
+    height: 62px;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.4s;
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.nigga{
+    height: 400px;
+}
+.man3{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top:-5px;
+    font-size: 17px;
+    padding: 23px 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.box3{
+    display: flex;
+    position: absolute;
+    width: 97%;
+    top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.box3 a{
+    width: 100%;
+
+    font-size: 17px;
+    padding: 15px 0px 15px 20px ;
+    color: black;
+
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.box3 a:hover{
+    padding: 15px 0px 15px 20px ;
+    color: orangered;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.474);
+}
+
+
+.li4{
+    height: 62px;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.4s;
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.nigga{
+    height: 400px;
+}
+.man4{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top:-5px;
+    font-size: 17px;
+    padding: 23px 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.box4{
+    display: flex;
+    position: absolute;
+    width: 97%;
+    top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.box4 a{
+    width: 100%;
+
+    font-size: 17px;
+    padding: 15px 0px 15px 20px ;
+    color: black;
+
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.box4 a:hover{
+    padding: 15px 0px 15px 20px ;
+    color: orangered;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.474);
+}
+.li5{
+    height: 62px;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.4s;
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.nigga{
+    height: 400px;
+}
+.man5{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top:-5px;
+    font-size: 17px;
+    padding: 23px 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.box5{
+    display: flex;
+    position: absolute;
+    width: 97%;
+    top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.box5 a{
+    width: 100%;
+
+    font-size: 17px;
+    padding: 15px 0px 15px 20px ;
+    color: black;
+
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.box5 a:hover{
+    padding: 15px 0px 15px 20px ;
+    color: orangered;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.474);
+}
+
+
+.li6{
+    height: 62px;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.4s;
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+.nigga{
+    height: 400px;
+}
+.man6{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top:-5px;
+    font-size: 17px;
+    padding: 23px 20px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+}
+.box6{
+    display: flex;
+    position: absolute;
+    width: 97%;
+    top: 4rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.box6 a{
+    width: 100%;
+
+    font-size: 17px;
+    padding: 15px 0px 15px 20px ;
+    color: black;
+
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.box6 a:hover{
+    padding: 15px 0px 15px 20px ;
+    color: orangered;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.474);
+}
+.man1:hover,.man2:hover,.man3:hover,.man4:hover,.man5:hover,.man6:hover{
+    background-color: rgba(255, 123, 0, 0.36) ;
+    /* padding: 0; */
+}
+
+.ch-man{
+    color: orangered;
+    background-color: rgba(255, 123, 0, 0.36);
+}
+.ch-rote{
+    transform: rotate(180deg);
+    fill: orangered;
+    
 }
