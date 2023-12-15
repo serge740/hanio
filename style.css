@@ -100,7 +100,7 @@ gap: 20px;
     gap: 2px;
     border-radius: 20px;
     position: absolute;
-    top: 20%;
+    top: 15rem;
     opacity: 0;
     transition: 0.5s;
     pointer-events: none;
@@ -130,12 +130,13 @@ gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: relative; */
     flex-direction: column;
     padding: 0px 0px 10px 0px;
     z-index: 1;
 }
 .li1:hover .box{
-    top: 05%;
+    top: 05rem;
     pointer-events: all;
     opacity: 1;
     
